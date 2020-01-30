@@ -5,12 +5,14 @@ import Es6Home from './courses/es6/Es6Home';
 import ReactHome from './courses/react/ReactHome';
 import ReduxHome from './courses/redux/ReduxHome';
 import NotFound from './NotFound';
+import ExHome from './courses/ex/ExHome';
 
 
 
 function Content() {
   return (
     <Switch>
+      <Route path="/ex" component={ExHome}/>
       <Route path="/js" component={JsHome}/>
       <Route path="/es6" component={Es6Home}/>
       <Route path="/react" component={ReactHome}/>

@@ -55,8 +55,8 @@ const Installation = () => {
         `}</Highlight>
       </div>
 
-      <h4>Adding Bootstrap and Font Awesome</h4>
-      <p>We can use libraries like Bootstrap or font icons either installing through npm or direcly adding url in
+      <p>Step 6 - Adding Bootstrap and Font Awesome<br/>
+      We can use libraries like Bootstrap or font icons either installing through npm or direcly adding url in
       out index.html file which is inside public folder</p>
       <div className="cb">
         <Highlight language="javascript">{`
@@ -71,6 +71,15 @@ const Installation = () => {
           <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
         `}</Highlight>
       </div>
+
+
+      <h2>Folder Structure</h2>
+
+      <h2>Redux Setup</h2>
+
+      <h2>Routing Setup</h2>
+
+      <h2>dfsdf</h2>
 
    </div>
 

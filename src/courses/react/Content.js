@@ -6,6 +6,8 @@ import FirstComponent from './topics/FirstComponent';
 import FirstForm from './topics/FirstForm';
 import ReduxSetup from './topics/ReduxSetup';
 import MongoDB from './topics/MongoDB';
+import SSR from './topics/SSR';
+import BasicSteps from './topics/BasicSteps';
 
 
 
@@ -23,6 +25,8 @@ const Content = () => {
   return (
       <div className="doc-componentpage">
         <Switch>
+          <Route path="/react/basicsteps" component={BasicSteps}/>
+          <Route path="/react/ssr" component={SSR}/>
           <Route path="/react/installation" component={Installation}/>
           <Route path="/react/first-component" component={FirstComponent}/>
           <Route path="/react/first-form" component={FirstForm}/>
